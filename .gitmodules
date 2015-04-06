@@ -79,3 +79,207 @@
 [submodule "bundle/Guardian"]
 	path = bundle/Guardian
 	url = https://github.com/vim-scripts/Guardian.git
+[submodule "bundle/ ag.vim"]
+	path = bundle/ ag.vim
+	url = https://github.com/vim-scripts/ ag.vim.git
+[submodule "bundle/JSON.vim"]
+	path = bundle/JSON.vim
+	url = https://github.com/vim-scripts/JSON.vim.git
+[submodule "bundle/NrrwRgn"]
+	path = bundle/NrrwRgn
+	url = https://github.com/vim-scripts/NrrwRgn.git
+[submodule "bundle/Puppet-Syntax-Highlighting"]
+	path = bundle/Puppet-Syntax-Highlighting
+	url = https://github.com/vim-scripts/Puppet-Syntax-Highlighting.git
+[submodule "bundle/Solarized"]
+	path = bundle/Solarized
+	url = https://github.com/vim-scripts/Solarized.git
+[submodule "bundle/SuperTab"]
+	path = bundle/SuperTab
+	url = https://github.com/vim-scripts/SuperTab.git
+[submodule "bundle/Vundle.vim"]
+	path = bundle/Vundle.vim
+	url = https://github.com/vim-scripts/Vundle.vim.git
+[submodule "bundle/a.vim"]
+	path = bundle/a.vim
+	url = https://github.com/vim-scripts/a.vim.git
+[submodule "bundle/calendar.vim--Matsumoto"]
+	path = bundle/calendar.vim--Matsumoto
+	url = https://github.com/vim-scripts/calendar.vim--Matsumoto.git
+[submodule "bundle/candy.vim"]
+	path = bundle/candy.vim
+	url = https://github.com/vim-scripts/candy.vim.git
+[submodule "bundle/ctrlp.vim"]
+	path = bundle/ctrlp.vim
+	url = https://github.com/vim-scripts/ctrlp.vim.git
+[submodule "bundle/delimitMate"]
+	path = bundle/delimitMate
+	url = https://github.com/vim-scripts/delimitMate.git
+[submodule "bundle/gist-vim"]
+	path = bundle/gist-vim
+	url = https://github.com/vim-scripts/gist-vim.git
+[submodule "bundle/github-theme"]
+	path = bundle/github-theme
+	url = https://github.com/vim-scripts/github-theme.git
+[submodule "bundle/gundo.vim"]
+	path = bundle/gundo.vim
+	url = https://github.com/vim-scripts/gundo.vim.git
+[submodule "bundle/jade.vim"]
+	path = bundle/jade.vim
+	url = https://github.com/vim-scripts/jade.vim.git
+[submodule "bundle/jellybeans.vim"]
+	path = bundle/jellybeans.vim
+	url = https://github.com/vim-scripts/jellybeans.vim.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/vim-scripts/nerdcommenter.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/vim-scripts/nerdtree.git
+[submodule "bundle/openssl.vim"]
+	path = bundle/openssl.vim
+	url = https://github.com/vim-scripts/openssl.vim.git
+[submodule "bundle/pyflakes.vim"]
+	path = bundle/pyflakes.vim
+	url = https://github.com/vim-scripts/pyflakes.vim.git
+[submodule "bundle/python.vim"]
+	path = bundle/python.vim
+	url = https://github.com/vim-scripts/python.vim.git
+[submodule "bundle/splice.vim"]
+	path = bundle/splice.vim
+	url = https://github.com/vim-scripts/splice.vim.git
+[submodule "bundle/switch.vim"]
+	path = bundle/switch.vim
+	url = https://github.com/vim-scripts/switch.vim.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/vim-scripts/syntastic.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/vim-scripts/tagbar.git
+[submodule "bundle/tomorrow-theme"]
+	path = bundle/tomorrow-theme
+	url = https://github.com/vim-scripts/tomorrow-theme.git
+[submodule "bundle/unite-outline"]
+	path = bundle/unite-outline
+	url = https://github.com/vim-scripts/unite-outline.git
+[submodule "bundle/unite.vim"]
+	path = bundle/unite.vim
+	url = https://github.com/vim-scripts/unite.vim.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/vim-scripts/vim-airline.git
+[submodule "bundle/vim-bundler"]
+	path = bundle/vim-bundler
+	url = https://github.com/vim-scripts/vim-bundler.git
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = https://github.com/vim-scripts/vim-coffee-script.git
+[submodule "bundle/vim-csharp"]
+	path = bundle/vim-csharp
+	url = https://github.com/vim-scripts/vim-csharp.git
+[submodule "bundle/vim-cucumber"]
+	path = bundle/vim-cucumber
+	url = https://github.com/vim-scripts/vim-cucumber.git
+[submodule "bundle/vim-dispatch"]
+	path = bundle/vim-dispatch
+	url = https://github.com/vim-scripts/vim-dispatch.git
+[submodule "bundle/vim-distinguished"]
+	path = bundle/vim-distinguished
+	url = https://github.com/vim-scripts/vim-distinguished.git
+[submodule "bundle/vim-easymotion"]
+	path = bundle/vim-easymotion
+	url = https://github.com/vim-scripts/vim-easymotion.git
+[submodule "bundle/vim-elixir"]
+	path = bundle/vim-elixir
+	url = https://github.com/vim-scripts/vim-elixir.git
+[submodule "bundle/vim-endwise"]
+	path = bundle/vim-endwise
+	url = https://github.com/vim-scripts/vim-endwise.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/vim-scripts/vim-fugitive.git
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
+	url = https://github.com/vim-scripts/vim-gitgutter.git
+[submodule "bundle/vim-gitignore"]
+	path = bundle/vim-gitignore
+	url = https://github.com/vim-scripts/vim-gitignore.git
+[submodule "bundle/vim-gocode"]
+	path = bundle/vim-gocode
+	url = https://github.com/vim-scripts/vim-gocode.git
+[submodule "bundle/vim-haml"]
+	path = bundle/vim-haml
+	url = https://github.com/vim-scripts/vim-haml.git
+[submodule "bundle/vim-indentobject"]
+	path = bundle/vim-indentobject
+	url = https://github.com/vim-scripts/vim-indentobject.git
+[submodule "bundle/vim-javascript"]
+	path = bundle/vim-javascript
+	url = https://github.com/vim-scripts/vim-javascript.git
+[submodule "bundle/vim-jsbeautify"]
+	path = bundle/vim-jsbeautify
+	url = https://github.com/vim-scripts/vim-jsbeautify.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/vim-scripts/vim-markdown.git
+[submodule "bundle/vim-multiple-cursors"]
+	path = bundle/vim-multiple-cursors
+	url = https://github.com/vim-scripts/vim-multiple-cursors.git
+[submodule "bundle/vim-nerdtree-tabs"]
+	path = bundle/vim-nerdtree-tabs
+	url = https://github.com/vim-scripts/vim-nerdtree-tabs.git
+[submodule "bundle/vim-rails"]
+	path = bundle/vim-rails
+	url = https://github.com/vim-scripts/vim-rails.git
+[submodule "bundle/vim-rake"]
+	path = bundle/vim-rake
+	url = https://github.com/vim-scripts/vim-rake.git
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = https://github.com/vim-scripts/vim-repeat.git
+[submodule "bundle/vim-rooter"]
+	path = bundle/vim-rooter
+	url = https://github.com/vim-scripts/vim-rooter.git
+[submodule "bundle/vim-rspec"]
+	path = bundle/vim-rspec
+	url = https://github.com/vim-scripts/vim-rspec.git
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = https://github.com/vim-scripts/vim-ruby.git
+[submodule "bundle/vim-ruby-refactoring"]
+	path = bundle/vim-ruby-refactoring
+	url = https://github.com/vim-scripts/vim-ruby-refactoring.git
+[submodule "bundle/vim-signify"]
+	path = bundle/vim-signify
+	url = https://github.com/vim-scripts/vim-signify.git
+[submodule "bundle/vim-slim"]
+	path = bundle/vim-slim
+	url = https://github.com/vim-scripts/vim-slim.git
+[submodule "bundle/vim-stylus"]
+	path = bundle/vim-stylus
+	url = https://github.com/vim-scripts/vim-stylus.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/vim-scripts/vim-surround.git
+[submodule "bundle/vim-syntastic-coffee"]
+	path = bundle/vim-syntastic-coffee
+	url = https://github.com/vim-scripts/vim-syntastic-coffee.git
+[submodule "bundle/vim-tmux"]
+	path = bundle/vim-tmux
+	url = https://github.com/vim-scripts/vim-tmux.git
+[submodule "bundle/vim-unimpaired"]
+	path = bundle/vim-unimpaired
+	url = https://github.com/vim-scripts/vim-unimpaired.git
+[submodule "bundle/vim-vividchalk"]
+	path = bundle/vim-vividchalk
+	url = https://github.com/vim-scripts/vim-vividchalk.git
+[submodule "bundle/vimerl"]
+	path = bundle/vimerl
+	url = https://github.com/vim-scripts/vimerl.git
+[submodule "bundle/vimproc"]
+	path = bundle/vimproc
+	url = https://github.com/vim-scripts/vimproc.git
+[submodule "bundle/webapi-vim"]
+	path = bundle/webapi-vim
+	url = https://github.com/vim-scripts/webapi-vim.git
