@@ -1,33 +1,5 @@
 set nocompatible
-source $VIMRUNTIME/vimrc_example.vim
-source $VIMRUNTIME/mswin.vim
-behave mswin
-
-set diffexpr=MyDiff()
-function MyDiff()
-  let opt = '-a --binary '
-  if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
-  if &diffopt =~ 'iwhite' | let opt = opt . '-b ' | endif
-  let arg1 = v:fname_in
-  if arg1 =~ ' ' | let arg1 = '"' . arg1 . '"' | endif
-  let arg2 = v:fname_new
-  if arg2 =~ ' ' | let arg2 = '"' . arg2 . '"' | endif
-  let arg3 = v:fname_out
-  if arg3 =~ ' ' | let arg3 = '"' . arg3 . '"' | endif
-  let eq = ''
-  if $VIMRUNTIME =~ ' '
-    if &sh =~ '\<cmd'
-      let cmd = '""' . $VIMRUNTIME . '\diff"'
-      let eq = '"'
-    else
-      let cmd = substitute($VIMRUNTIME, ' ', '" ', '') . '\diff"'
-    endif
-  else
-    let cmd = $VIMRUNTIME . '\diff'
-  endif
-  silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
-endfunction
-
+set shell=/bin/bash
 set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 
@@ -65,8 +37,6 @@ Plugin 'austintaylor/vim-indentobject'
 " global search & replace
 Plugin 'greplace.vim'
 " better looking statusline
-" Plugin 'Lokaltog/powerline'
-
 Plugin 'bling/vim-airline'
 " plugin for resolving three-way merge conflicts
 Plugin 'sjl/splice.vim'
@@ -119,6 +89,7 @@ Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Plugin 'Lokaltog/vim-distinguished'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'candy.vim'
+Plugin 'kristijanhusak/vim-hybrid-material'
 
 " syntax support
 Plugin 'vim-ruby/vim-ruby'
@@ -132,13 +103,12 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'vitaly/vim-syntastic-coffee'
 Plugin 'vim-scripts/jade.vim'
 Plugin 'wavded/vim-stylus'
-Plugin 'VimClojure'
+Plugin 'tpope/vim-fireplace'
 Plugin 'slim-template/vim-slim'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'Blackrush/vim-gocode'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'Buffergator'
-Plugin 'Vim-JDE'
 Plugin 'Guardian'
 Plugin 'github-theme'
 Plugin 'Solarized'
@@ -334,10 +304,6 @@ let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_guide_size = 1
 let g:indent_guides_color_change_percent = 5
 
-" VimClojure
-let g:vimclojure#ParenRainbow = 1
-let g:vimclojure#DynamicHighlighting = 1
-
 " Utl.vim
 if has("mac")
   let g:utl_cfg_hdl_scm_http_system = "!open '%u'"
@@ -389,9 +355,8 @@ set cursorline
 set splitright
 set foldmethod=syntax
 set foldlevelstart=10
-set guifont=Dejavu_Sans_Mono_for_Powerline:h8
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=2
+set softtabstop=2
 set autoindent
 set smartindent
 set expandtab
@@ -415,5 +380,8 @@ set clipboard=unnamedplus
 set fileformat=unix
 set fileformats=unix,dos
 
-colors solarized
+let g:enable_bold_font = 1
+set background=dark
+colorscheme hybrid_material
 filetype on
+syntax on
